@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_service" value="name:EmpCdg;datatype:string,name:SerCdg;datatype:string,name:SerDsc;datatype:string,name:SerDscAbr;datatype:string,name:SerPre;datatype:real,name:SerAgeCdg;datatype:string,name:SerUsuAdd;datatype:string,name:SerFecAdd;datatype:date,name:SerTimAdd;datatype:string,name:SerUsuChg;datatype:string,name:SerFecChg;datatype:date,name:SerTimChg;datatype:string,name:hotusuadd;datatype:string,name:hotfecadd;datatype:date,name:hottimadd;datatype:string,name:levels_users;datatype:int,name:tarif_cdg;datatype:string" />
+	<infoitem key="UD_categories" value="name:id;datatype:int,name:descript;datatype:string,name:tarif_cdg;datatype:string" />
+</info>

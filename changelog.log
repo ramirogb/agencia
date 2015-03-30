@@ -1,0 +1,142 @@
+5 febrero 2010
+
+Fixed
+solo quien pertenece a la agencia puede abrir la cotizacion o reserva
+se puede descargar en doc la reserva o cotizacion
+se añade con el wizard el servicio en private pero no se podia añadir shared, ello se añade luego desde tarifas
+
+todo
+
+
+
+
+Crear Categorias
+Crear Grupos de idiomas
+
+Usar el wizard para crear servicios, configurar precios.
+
+
+
+
+
+
+asepsia caps
+
+a las tablas myreservas y quotations cambie tipe a 5 digitos
+añadi tabla servicios_variations
+
+
+
+get_lang
+
+domingo
+usando una libreria para tener abstraccion, ya esta a las 5:15pm uff solo debo editar.config.php
+
+ or die(mysql_error())
+
+
+
+mysql_query  query_db
+
+mysql_fetch_array
+
+
+
+
+select serv_type_lang.lang as corto from serv_type_lang
+where
+ serv_type_lang.tipe='PRIV' and  serv_type_lang.SerCdg='MAC7'
+
+cree una cuenta en rezgo.com
+
+rbanda 
+rami
+ban
+
+
+
+En paises donde la piratería está arraigada no le veo futuro a las APPS, seguira Word, Excel, etc. a los cuales estamos acostumbrados.
+
+Las Apps de google pueden beneficiar a las pequeñas empresas por el email en mi opinión.
+
+Alguien sabe si tiene costo el ser reseller de sus APPS?
+
+
+
+
+
+
+
+
+$npaxes5 febrero 2010
+
+Fixed
+solo quien pertenece a la agencia puede abrir la cotizacion o reserva
+se puede descargar en doc la reserva o cotizacion
+se añade con el wizard el servicio en private pero no se podia añadir shared, ello se añade luego desde tarifas
+
+todo
+
+
+
+
+Crear Categorias
+Crear Grupos de idiomas
+
+Usar el wizard para crear servicios, configurar precios.
+
+
+
+
+
+
+asepsia caps
+
+a las tablas myreservas y quotations cambie tipe a 5 digitos
+añadi tabla servicios_variations
+
+
+
+get_lang
+
+domingo
+usando una libreria para tener abstraccion, ya esta a las 5:15pm uff solo debo editar.config.php
+
+ or die(mysql_error())
+
+
+
+mysql_query  query_db
+
+mysql_fetch_array
+
+
+
+
+select serv_type_lang.lang as corto from serv_type_lang
+where
+ serv_type_lang.tipe='PRIV' and  serv_type_lang.SerCdg='MAC7'
+
+cree una cuenta en rezgo.com
+
+rbanda 
+rami
+ban
+
+
+
+En paises donde la piratería está arraigada no le veo futuro a las APPS, seguira Word, Excel, etc. a los cuales estamos acostumbrados.
+
+Las Apps de google pueden beneficiar a las pequeñas empresas por el email en mi opinión.
+
+Alguien sabe si tiene costo el ser reseller de sus APPS?
+
+
+
+
+
+
+
+
+$npaxes
+

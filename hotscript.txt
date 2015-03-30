@@ -1,0 +1,4 @@
+e-Tour
+Tired of wasting hundred of hours/year providing quotes for tours?  E-tour, a PHP application provides instant quotes and reservations of tour services of travel agencies or tour operators. Easy to use and install. The script call for the registered user to select/enter requested information upon which online quote and by email or a reservation is generated. Requires PHP 5.2.4, Mysql, email server. Prices, services, categories, tour operators, languages, users and more settings are configurable. 
+
+For limited time free installation and basic customization (template for reservation, taxes, etc.) Please visit our website and online demo! 

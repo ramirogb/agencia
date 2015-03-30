@@ -1,0 +1,23 @@
+Dear $name, 
+
+Your ticket has now been received. One of our staff members will review it and reply accordingly. Listed below are the details of this ticket
+
+Ticket ID: $id
+Username: $username
+Subject: $subjet
+Urgency: $urgency
+Department: $departament
+Post Date: $date
+____________________________________________________________________
+
+$message
+____________________________________________________________________ 
+
+
+You can check the status or reply to this ticket online at:
+
+
+$open_ticket
+Or: $siteurl with your username and password (registered users). 
+
+$footer

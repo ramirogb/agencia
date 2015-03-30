@@ -1,0 +1,5 @@
+Helpdesk
+ID: $id 
+Subject: $subjet 
+Date:$date
+=>> $message

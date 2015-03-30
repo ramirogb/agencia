@@ -1,0 +1,37 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+
+
+UL {
+	MARGIN: 0px 0px 0px 20px
+}
+DT {
+	MARGIN: 1em 0px 0.2em; FONT-WEIGHT: bold
+}
+DD {
+	MARGIN: 0.2em 0px 1em
+}
+
+
+#chooseDateForm LI {
+	PADDING-BOTTOM: 5px; LIST-STYLE-TYPE: none; PADDING-LEFT: 5px; PADDING-RIGHT: 5px; CLEAR: both; LIST-STYLE-IMAGE: none; PADDING-TOP: 5px
+}
+INPUT {
+	MARGIN: 5px 0px;
+}
+INPUT.dp-applied {
+	 FLOAT: left
+}
+A.dp-choose-date {
+	PADDING-BOTTOM: 0px; TEXT-INDENT: -2000px; MARGIN: 5px 3px 0px; PADDING-LEFT: 0px; WIDTH: 16px; PADDING-RIGHT: 0px; DISPLAY: block; BACKGROUND: url(../../images/calendar.png) no-repeat; FLOAT: left; HEIGHT: 16px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+A.dp-disabled.dp-choose-date {
+	BACKGROUND-POSITION: 0px -20px; CURSOR: default
+}
+#calendar-me {
+	MARGIN: 20px
+}
+PRE.sourcecode {
+	BORDER-BOTTOM: #ccc 2px dashed; BORDER-LEFT: #ccc 2px dashed; PADDING-BOTTOM: 10px; MARGIN: 0px 0px 20px; PADDING-LEFT: 10px; WIDTH: 734px; PADDING-RIGHT: 10px; OVERFLOW: auto; BORDER-TOP: #ccc 2px dashed; BORDER-RIGHT: #ccc 2px dashed; PADDING-TOP: 10px
+}

@@ -1,0 +1,60 @@
+BODY {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-TOP: 0px; BACKGROUND-COLOR: #0a0a0a
+}
+TABLE {
+	FONT-SIZE: 10pt; COLOR: #919191; FONT-FAMILY: Tahoma
+}
+A:link {
+	COLOR: #6a678d
+}
+A:visited {
+	COLOR: #6a678d
+}
+A:active {
+	COLOR: #c0c0c0
+}
+A:hover {
+	COLOR: #756ec6
+}
+HR {
+	COLOR: #444444; HEIGHT: 1px
+}
+H2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #756ec6
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #756ec6
+}
+.header {
+	HEIGHT: 127px; BACKGROUND-COLOR: #191919; TEXT-ALIGN: center
+}
+.body {
+	VERTICAL-ALIGN: top; BACKGROUND-COLOR: #282828; TEXT-ALIGN: center
+}
+.footer {
+	FONT-SIZE: 8pt; COLOR: #444444; HEIGHT: 70px; TEXT-ALIGN: center
+}
+.main {
+	WIDTH: 550px; HEIGHT: 83%; BACKGROUND-COLOR: #010101
+}
+.subtitle {
+	HEIGHT: 23px; BACKGROUND-COLOR: #1f1f1f; TEXT-ALIGN: left
+}
+.code-sample {
+	BORDER-RIGHT: #808080 2px dashed; PADDING-RIGHT: 8px; BORDER-TOP: #808080 2px dashed; PADDING-LEFT: 8px; PADDING-BOTTOM: 8px; MARGIN: 7px 0px; OVERFLOW: scroll; BORDER-LEFT: #808080 2px dashed; WIDTH: 650px; COLOR: #000040; PADDING-TOP: 8px; BORDER-BOTTOM: #808080 2px dashed; BACKGROUND-COLOR: #e1dfff
+}
+.design {
+	BACKGROUND-COLOR: #1f1f1f
+}
+.design-title {
+	FONT-WEIGHT: bold; FONT-SIZE: 13pt; COLOR: #a4a1cb; BACKGROUND-COLOR: #282828
+}
+.design-img {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FLOAT: right; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+.design-desc {
+	VERTICAL-ALIGN: top
+}
+.menu-item {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 2px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; PADDING-TOP: 0px
+}

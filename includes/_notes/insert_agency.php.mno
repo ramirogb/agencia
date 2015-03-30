@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_insert" value="name:EmpCdg;datatype:string,name:AgeCdg;datatype:string,name:AgeDsc;datatype:string,name:AgeDscAbr;datatype:string,name:AgeDir;datatype:string,name:AgeFon;datatype:string,name:AgeFax;datatype:string,name:AgeCto;datatype:string,name:AgeFecAdd;datatype:date,name:AgeTimAdd;datatype:string,name:AgeRuc;datatype:string,name:AgeFon2;datatype:string,name:AgeNex;datatype:string,name:AgeCelMov;datatype:string,name:AgeCelCla;datatype:string" />
+</info>

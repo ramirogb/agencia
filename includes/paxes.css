@@ -1,0 +1,2369 @@
+@charset "UTF-8";
+a {
+	outline: none;
+}
+a:hover {background-position: 0 0;}	/* allows for background/border to change in ie6 */
+* html img { 
+	behavior: url(/css/iefix/iepngfix.htc);
+}
+.pngfix {
+	behavior: url(/css/iefix/iepngfix.htc);
+}
+.nowrap {
+	white-space: nowrap;
+}
+img {
+	border: 0px;
+}
+/* pngfix for booking-server */
+#content_container {
+	behavior: none;
+}
+/* Portal Fix for pngfix: */
+#search_form input, #search_form img {
+	position: relative;
+}
+.recaptcha_error {
+	color: red;
+	font-weight: bold;
+}
+/* Header */
+.current_location {
+	font-weight: bold;
+	text-transform: capitalize;
+	font-size: 1.5em;
+}
+
+
+.search_btn {
+	width: 80px;
+	line-height: 22px;
+	text-align: left;
+	padding: 0px 30px 0px 10px;
+}
+
+input:hover.rezgo_btn, #rezgo_booking_details .detail .formfieldbox input:hover.rezgo_btn{
+	background: url(/images/btn_right_arrow_on.png) no-repeat right;
+}
+
+
+div.rezgo_hr {
+	border-bottom: 1px solid #e3e3e3;
+	background: #fff;
+	height: 1px;
+	clear: both;
+}
+div.rezgo_hr hr {    /* for CSS1 browsers */
+	display: none;
+}
+div.rezgo_hr * {     /* for CSS2 browsers */
+	display: none;
+}
+
+span.rezgo_asterisk	{
+	color: #f00;
+}
+
+
+.rezgo_clm_750px_btm	{
+	background: url(images/clm_750px_btm.png) no-repeat bottom;
+	width: 750px;
+}
+
+.rezgo_clm_750px_title{
+	background: url(images/clm_750px_title.png) no-repeat top;
+	width: 750px;
+}
+
+.rezgo_clm_750px_title_grey	{
+	background: url(images/clm_750px_title_grey.png) no-repeat top;
+	width: 750px;
+}
+.rezgo_clm_750px .rezgo_company_intro	{
+	padding: 20px;
+	display: block;
+}
+.rezgo_clm_750px .rezgo_booking_not_found	{
+	padding: 10px;
+	display: block;
+}
+.rezgo_clm_487px	{
+	background: url(images/clm_487px_bg.png) repeat-y;
+	width: 487px;
+	margin: 5px 0px;
+}
+.rezgo_clm_487px_btm	{
+	background: url(images/clm_487px_btm.png) no-repeat bottom center;
+	width: 487px;
+	text-align: center;
+}
+
+.rezgo_clm_487px_title	{
+	background: url(images/clm_487px_title.png) no-repeat top center;
+	width: 487px;
+}
+.rezgo_clm_487px_title_grey	{
+	background: url(images/clm_487px_title_grey.png) no-repeat top center;
+	width: 487px;
+}
+
+.rezgo_clm_255px	{
+	background: url(images/clm_255px_bg.png) repeat-y;
+	width: 255px;
+	display: block;
+	margin: 5px 0px;
+}
+
+.rezgo_clm_255px_btm	{
+	background: url(images/clm_255px_btm.png) no-repeat bottom;
+	width: 255px;
+}
+
+.rezgo_clm_255px_title	{
+	background: url(images/clm_255px_title.png) no-repeat top;
+	width: 255px;
+}
+
+.rezgo_clm_255px_title_grey	{
+	background: url(images/clm_255px_title_grey.png) no-repeat top;
+	width: 255px;
+}
+.rezgo_clm_255px .rezgo_tag_cloud	{
+	text-align: left;
+	margin: 0;
+	padding: 15px 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+.rezgo_clm_255px .rezgo_tag_cloud a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-decoration: none;
+}
+
+.rezgo_clm_255px .rezgo_tag_cloud .current {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.rezgo_clm_255px .rezgo_tag_cloud a:hover	{
+	text-decoration: underline;
+}
+
+.rezgo_clm_255px .rezgo_tag_cloud .tag_level1 {
+	font-size: 12px;
+}
+.rezgo_clm_255px .rezgo_tag_cloud .tag_level2 {
+	font-size: 14px;
+}
+.rezgo_clm_255px .rezgo_tag_cloud .tag_level3 {
+	font-size: 15px;
+}
+.rezgo_clm_255px .rezgo_tag_cloud .tag_level4 {
+	font-size: 18px;
+}
+.rezgo_clm_255px .rezgo_tag_cloud .tag_level5 {
+	font-size: 20px;
+}
+
+/* -------------------------------------------------------- rezgo Tour and Activities search styles */
+
+#rezgo_search_255px	{
+	background: url(images/clm_255px_bg_search.png) repeat-y;
+	width: 255px;
+	display: block;
+	margin: 5px 0px;
+}
+
+#rezgo_search_255px_title	{
+	background: url(images/clm_255px_title_search.png) no-repeat top;
+	width: 255px;
+}
+
+#rezgo_search_255px_btm	{
+	background: url(images/clm_255px_btm_search.png) no-repeat bottom;
+	width: 255px;
+	height: 330px;
+}
+
+#rezgo_search_255px_btm .content	{
+	text-align: left;
+	width: 215px;
+	padding: 20px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#rezgo_search_255px_btm .content form	{
+	padding: 0;
+	margin: 0;
+}
+
+#rezgo_search_255px_btm .content form select	{
+	display: block;
+	margin: 5px 0 15px 0;
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 1px;
+	width: 210px;
+}
+
+#rezgo_search_255px_btm .content form input.date	{
+	margin: 5px 0 15px 0;
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 2px 1px;
+	width: 150px;
+}
+
+#rezgo_search_255px_btm .content form img	{
+	margin: 8px 0 0 10px;
+	vertical-align: top;
+}
+/* -------------------------------------------------------- rezgo list styles */
+#rezgo_search_result	{
+	padding: 2px 3px 4px;
+	margin: 0px;
+}
+
+#rezgo_search_result p	{
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 10px 0px 0px 20px;
+	margin: 0px;
+}
+
+#rezgo_sortedby	{
+	font-size: 11px;
+	text-align: right;
+	padding: 5px 20px;
+}
+
+#rezgo_sortedby select	{
+	margin: 0;
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 1px;
+	width: 80px;
+}
+
+.rezgo_title_bar_blue	{
+	background: url(images/title_bar_blue.png) no-repeat;
+	behavior: url(/css/iefix/iepngfix.htc);
+	width: 465px;
+	height: 27px;
+	margin: 0 auto;
+}
+
+.rezgo_title_bar_blue .title	{
+	display: block;
+	float: left;
+	width: 280px;
+	height: 23px;
+	margin-top: 2px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+	text-align: right;
+}
+
+.rezgo_title_bar_blue .from	{
+	display: block;
+	float: left;
+	width: 95px;
+	height: 12px;
+	margin-top: 5px;
+	font-size: 9px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.rezgo_title_bar_blue .divider {
+	background: url(images/title_bar_blue_divider.png) no-repeat right;
+	float: left;
+	margin-top: 2px;
+	height: 23px;
+	width: 2px;
+}
+
+#rezgo_list_container {
+	width: 487px;
+	margin: 0px auto;
+}
+#rezgo_list	{
+	width: 455px;
+	margin: 0px auto;
+	text-align: left;
+}
+
+#rezgo_list table.product	{
+	width: 445px;
+	margin: 12px auto;
+	padding: 0px;
+	border: 0px;
+	background: transparent;
+}
+
+#rezgo_list table.product td {
+	vertical-align: top;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#rezgo_list table.product .content	{
+	vertical-align: top;
+}
+
+#rezgo_list table.product .content img	{
+	border: 0;
+}
+#rezgo_list table.product .image_element {
+	width: 150px;
+}
+
+#rezgo_list table.product .image_box {
+	margin: 0px 15px 0px 0px;
+}
+
+#rezgo_list table.product .info_box {
+	vertical-align: top;
+	width: 285px;
+}
+
+
+#rezgo_list table.product td .product_details {
+	background: transparent;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+#rezgo_list table.product .price	{
+	text-align: right;
+	padding-right: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border: 0px;
+}
+
+#rezgo_list table.product .btn	{
+	vertical-align: bottom;
+	text-align: center;
+	width: 90px;
+}
+
+/* New divs */
+#rezgo_list table.product .price .price_txt {
+	display: block;
+	float: right;
+	clear: none;
+}
+
+a.btn_details, a:visited.btn_details	{
+	background: url(images/btn_right_arrow_off.png) no-repeat right;
+	display: block;
+	width: 70px !important;
+	width: 80px;
+	height: 18px;
+	padding: 4px 0px 4px 10px;
+	margin: 0px 5px;
+	color: #fff;
+	font-size: 11px;
+	line-height: 18px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-align: left;
+}
+
+a:hover.btn_details	{
+	background: url(images/btn_right_arrow_on.png) no-repeat right;
+}
+.rezgo_page	{
+	text-align: center;
+	position: relative;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px 0px;
+}	
+
+.site_is_off {
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	background: #DDD;
+	height: 40px;
+	line-height: 40px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #d00;
+}
+#rezgo_detail	{
+	padding: 10px 20px;
+}
+
+#rezgo_detail .image_box {
+	float: left;
+	margin: 0px 10px 10px 0px;
+	width: 150px;
+}
+
+#rezgo_detail .info_box {
+	float: left;
+	vertical-align: top;
+	margin: 0px;
+	width: /*265px jq 22sep2008 */255px;
+}
+
+#rezgo_detail img	{
+	border: 0;
+	float: left;
+	margin-right: 15px;
+}
+
+#rezgo_detail p	{
+	margin: 0;
+	padding: 5px 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+#rezgo_detail .price	{
+	font-weight: bold;
+	margin: 0;
+	font-size: 11px;
+}
+
+#rezgo_detail .item_image {
+	width: 150px;
+	height: 150px;
+}
+
+#rezgo_detail .pics	{
+	padding-top: 10px;
+	clear: left;
+}
+
+#rezgo_detail .pics	 img	{
+	border: 0;
+	float: left;
+	margin-right: 3px;
+}
+#rezgo_detail .info_box .media_frame {
+	position: relative;
+	background: url(/images/photo_frame.gif) no-repeat center;
+	height: 72px;
+	width: 72px;
+}
+#rezgo_detail .info_box .media_frame img {
+	position: absolute;
+	width: 50px;
+	height: 40px;
+	top: 15px;
+	left: 11px;
+	border: 0px;
+}
+#rezgo_detail .images_bar, #rezgo_info_media .images_bar {
+	margin: 2px 4px;
+	background: white;
+	vertical-align: middle;
+	width: auto !important;
+	width: 100%;
+}
+#rezgo_detail .images_bar .images_bar_title, #rezgo_info_media .images_bar .images_bar_title {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	margin: 0px 10px;
+	padding: 2px 0px;
+	clear: both;
+	font-weight: bold;
+	color: #666;
+	background: transparent;
+}
+#rezgo_detail .images_bar a img, #rezgo_info_media .images_bar a img {
+	margin: 2px 3px;
+	padding: 0px;
+	width: 50px;
+	height: 50px;
+}
+#rezgo_detail .images_bar ul.image_bar_paging, #rezgo_info_media .images_bar ul.image_bar_paging {
+	clear: both;
+	text-align: center;
+	list-style: none;
+	margin: auto;
+	width: 200px;
+	padding: 0px;
+}
+
+#rezgo_detail .images_bar ul.image_bar_paging li.page, #rezgo_info_media .images_bar ul.image_bar_paging li.page {
+	display: inline;
+	text-align: center;
+	margin: 0px;
+}
+
+#rezgo_detail .images_bar .image_bar_paging li.page img, #rezgo_info_media .images_bar .image_bar_paging li.page img {
+	border: 0px;
+	margin: 2px 1px;
+	cursor: pointer;
+}
+#rezgo_detail .image_bar_control, #rezgo_info_media .image_bar_paging li.page img.image_bar_control {
+	margin: 2px 4px;
+}
+#rezgo_detail .images_bar table.images td.images_row, #rezgo_info_media .images_bar table.images td.images_row{
+	/*height: 115px;*/
+}
+
+#rezgo_detail .image_bar_page, #rezgo_info_media .image_bar_page {
+	margin: 0px;
+	padding: 0px;
+	text-align: left;
+}
+
+/* -------------------------------------------------------- rezgo detail description styles */
+
+#rezgo_info_description	{
+	margin: 5px 0px 0px;
+	padding: 0px 0px;
+	overflow: hidden;
+}
+
+#rezgo_info_description .title	{
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 0px 20px;
+}
+#rezgo_info_description ul.rezgo_detail_tabs {
+	padding-left: 20px;
+	border-bottom: 1px solid #EEE;
+	list-style-type: none;
+	text-align: left;
+	margin: 0px 0px;
+}
+#rezgo_info_description .rezgo_detail_tabs li {
+	display: inline;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+}
+#rezgo_info_description .rezgo_detail_tabs li a {
+	text-decoration: none;
+	margin-right: 5px;
+	padding: 4px 7px;
+	line-height: 18px;
+	background: url(/images/tab_off.png) repeat-x center;
+	color: black;
+	border: 1px solid #DDD;
+	border-bottom: none;
+}
+#rezgo_info_description .rezgo_detail_tabs li.selected a {
+	top: 1px;
+	background: url(/images/tab_on.png) repeat-x center;
+	border-bottom: none;
+}
+#rezgo_info_description .rezgo_info	{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	border-right: 1px solid #EEE;
+}
+#rezgo_info_description .rezgo_info .description_area	{
+	margin: 0px auto;
+	width: 430px;
+	overflow: hidden;
+	padding: 10px 0px;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+
+
+
+/* -------------------------------------------------------- rezgo promotional code styles */
+
+#rezgo_clm_promotionalcode	{
+	position: relative;
+	background: url(/images/clm_promotionalcode.png) no-repeat;
+	width: 215px;
+	height: 56px;
+	margin: 5px 0px;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 15px 20px 0 20px;
+}
+
+#rezgo_clm_promotionalcode #rezgo_promo_form	{
+	margin: 0;
+	padding: 0;
+}
+
+#rezgo_clm_promotionalcode .entry {
+	position: absolute;
+	bottom: 12px;
+}
+#rezgo_clm_promotionalcode .current_code {
+	position: absolute;
+	color: green;
+	padding: 0px 2px;
+	width: 200px;
+	margin: 1px 2px 0px;
+	cursor: pointer;
+}
+#rezgo_clm_promotionalcode .current_code:hover {
+	background: #EEE;
+}
+#rezgo_clm_promotionalcode input.input	{
+	float: left;
+	margin: 1px 0px 1px 0px;
+	height: 15px;
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 2px 1px;
+	width: 150px;
+}
+
+#rezgo_clm_promotionalcode input.go	{
+	float:left;
+	background: url(/images/btn_right_arrow_grey_off.png) no-repeat right;
+	border: 1px solid #ececec;
+	height: 22px;
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	padding: 0 24px 0 10px;
+	margin: 0px 0px 0px 2px;
+	width: 58px;
+	cursor: pointer;
+}
+
+#rezgo_clm_promotionalcode input:hover.go	{
+	background: url(/images/btn_right_arrow_grey_on.png) no-repeat right;
+}
+#rezgo_clm_promotionalcode .mynumber	{
+	margin: 5px 0 0 0;
+	background: #f7f7f7;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 3px;
+}
+/* -------------------------------------------------------- rezgo text styles */
+
+h1.rezgo_title_white, #rezgo_clm_right h1.rezgo_title_white, #rezgo_clm_left h1.rezgo_title_white, #rezgo_clm_calendar h1.rezgo_title_white 	{
+	text-align: left;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 13px 0 0 20px;
+	margin: 0;
+	height: 24px;
+}
+
+h1.rezgo_title	{
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 13px 0 0 20px;
+	margin: 0;
+	height: 24px;
+}
+
+h1.rezgo_list_product_name, h2.rezgo_list_product_name, h3.rezgo_list_product_name, h4.rezgo_list_product_name	{
+	color: #000;
+	margin: 0px 0px 5px;
+	padding: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+h1.rezgo_list_product_name a, h2.rezgo_list_product_name a, h3.rezgo_list_product_name a, h4.rezgo_list_product_name a	{
+	color: #000;
+	text-decoration: none;
+}
+
+h1.rezgo_list_product_name, h1.rezgo_list_product_name a	{
+	font-size: 20px;
+}
+
+h2.rezgo_list_product_name	{
+	font-size: 14px;
+}
+
+h3.rezgo_list_product_name	{
+	font-size: 12px;
+}
+
+h4.rezgo_list_product_name	{
+	font-size: 11px;
+}
+
+h2.rezgo_list_product_name a:hover, h3.rezgo_list_product_name a:hover, h4.rezgo_list_product_name a:hover	{
+	color: #000;
+	text-decoration: underline;
+}
+
+.rezgo_list_description, .rezgo_list_description_small, .rezgo_list_location, .rezgo_list_summary	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+.rezgo_list_description, .rezgo_list_location, .rezgo_list_summary	{
+	font-size: 11px;
+}
+
+.rezgo_list_summary {
+	margin: 10px 0px 5px;
+}
+
+.rezgo_list_description_small	{
+	font-size: 10px;
+}
+
+.rezgo_price, .rezgo_price_small	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.rezgo_price_super, .rezgo_price_small_super	{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	vertical-align: super;
+}
+
+.rezgo_price	{
+	font-size: 20px;
+}
+
+.rezgo_price_super	{
+	font-size: 14px;
+}
+
+.rezgo_price_small	{
+	font-size: 16px;
+}
+
+.rezgo_price_small_super	{
+	font-size: 10px;
+}
+
+/* -------------------------------------------------------- rezgo calendar styles */
+
+#rezgo_clm_calendar	{
+	position: relative;
+	/*background: url(/images/clm_calendar.png) no-repeat;*/
+	width: 255px;
+	/*height: 310px;*/
+	margin-bottom: 8px;
+	border: 1px solid #eee;
+}
+
+#rezgo_clm_calendar .calendar_ttl {
+	text-align: left;
+	background: url(/images/clm_calendar_ttl_bg.png) repeat-x;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px 0px 0px 10px;
+	margin: 0;
+	height: 24px;
+	border: 1px solid #fff;
+	border-bottom: none;
+}
+
+#rezgo_clm_calendar form {
+	margin: 0;
+	padding: 0;
+}
+
+#rezgo_clm_calendar .rezgo_calendar	{
+	padding: 0;
+	width: 251px;
+	margin: 0 auto;
+	text-align: center;
+	position: relative;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#rezgo_clm_calendar .rezgo_calendar a.arrow_left	{
+	background: url(/images/calendar_arrow_left.gif) no-repeat;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 1px;
+	left: 20px;
+}
+#rezgo_clm_calendar .rezgo_calendar a.arrow_right	{
+	background: url(/images/calendar_arrow_right.gif) no-repeat;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 1px;
+	right: 20px;
+}
+
+#rezgo_clm_calendar .rezgo_calendar select	{
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 2px 3px;
+	margin: 0 2px;
+	font-size: 11px;
+}
+#rezgo_clm_calendar .rezgo_calendar .calendar_days	{
+	text-align: center;
+	margin: 5px auto 0px;
+	padding: 0px;
+	border: 1px solid #ececec;
+	width: 198px;
+	height: 161px;
+	overflow: hidden;
+}
+#rezgo_clm_calendar .rezgo_calendar ul	{
+	list-style: none;
+	margin: 0px;
+	/*border: 1px solid #ececec;*/
+	width: 197px;
+	padding: 0px 0px 1px 1px;
+	background: #fff;
+	height: 160px;
+	text-align: center;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li	{
+	display: block;
+	float: left;
+	width: 27px;
+	line-height: 12px;
+	/* CAN'T ADD HEIGHT OR IT WILL BUMP DAYS TO WRONG POSITION */
+	margin: 0px 1px 1px 0px;
+	padding: 0px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li a	{
+	display: block;
+	float: left;
+	width: 27px;
+	text-align: center;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li.day	{
+	padding-top: 5px;
+	height: 17px;
+	font-size: 9px;
+	color: #666;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li.na	{
+	height: 17px;
+	padding-top: 5px;
+	font-size: 9px;
+	color: #999;
+	background: #e6e6e6;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li.a a	{
+	height: 17px;
+	padding-top: 5px;
+	font-size: 9px;
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+	background: #b5cbdd;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li.a a:hover, #rezgo_clm_calendar .rezgo_calendar li.selected a	{
+	background: #84a3bf;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li.full	{
+	height: 17px;
+	padding-top: 5px;
+	font-size: 9px;
+	color: #fff;
+	background: #ecab5d;
+	font-weight: bold;
+}
+
+#rezgo_clm_calendar .rezgo_calendar li.out	{
+	height: 17px;
+	padding-top: 5px;
+	font-size: 9px;
+	color: #ccc;
+	background: #f9f9f9;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+#rezgo_clm_calendar .legend	{
+	margin: 5px auto 0px;
+	text-align: center;
+	clear: both;
+	border-top: 1px solid #e3e3e3;
+}
+
+#rezgo_clm_calendar .legend	.legend_text {
+	font-size: 11px;
+	margin: 0px 0px 0px;
+	color: #666;
+}
+#rezgo_clm_calendar .legend	.legend_item {
+	display: inline;
+	width: 120px;
+	height: 10px;
+	margin: 3px auto;
+	font-size: 10px;
+	color: #666;
+	text-align: left;
+}
+#rezgo_clm_calendar .legend	.legend_item img {
+	margin: 0px 2px;
+}
+#rezgo_clm_calendar .legend .color_a, #rezgo_clm_calendar .legend .color_na, #rezgo_clm_calendar .legend .color_full	{
+	display: block;
+	width: 10px;
+	height: 10px;
+	margin: 0px 5px;
+	float: left;
+}
+
+#rezgo_clm_calendar .legend .color_a	{
+	background: #b5cbdd;
+}
+
+#rezgo_clm_calendar .legend .color_na	{
+	background: #e6e6e6;
+}
+
+#rezgo_clm_calendar .legend .color_full	{
+	background: #ecab5d;
+}
+
+
+/* -------------------------------------------------------- rezgo popup availability styles */
+#rezgo_popup_availability .hidden_calendar_data {
+	border: 1px solid red;
+	color: black;
+}
+#rezgo_popup_availability #rezgo_popup_availability_content	{
+	position: absolute;
+	top: 50px;
+	right: 260px;
+	width: 500px;
+	z-index: 900;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+#rezgo_popup_availability #rezgo_popup_options {
+	height: 238px;
+	overflow:hidden;
+	position: relative;
+}
+#rezgo_popup_availability #rezgo_popup_options tr {
+	height: 20px;
+}
+#rezgo_popup_availability #rezgo_popup_availability_close {
+	margin: 0px;
+}
+#rezgo_popup_availability .close_option_box {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 6px;
+	cursor: pointer;
+	border: 0px;
+	clear: both;
+}
+#rezgo_popup_availability .close_option_box img {
+	border: 0px;
+}
+#rezgo_popup_availability .availability .title_row {
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	width: 370px;
+	padding: 0px;
+	vertical-align: middle;
+}
+
+#rezgo_popup_availability .availability .title_row .title {
+	background: #E6EDF3;/*#eaf0f5;*/
+	font-size: 10px;
+	color: #4F5C68; /*#7291ad;*/
+	padding: 4px 0px;
+	height: 12px;
+	line-height: 12px;
+	margin: auto;
+	vertical-align: middle;
+}
+
+#rezgo_popup_availability .availability .title_row #title_left {
+	font-size: 10px;
+	width: 173px;
+	height: 12px;
+	line-height: 12px;
+	text-align: left;
+	float: left;
+	margin: 0px;
+	padding: 5px 0px;
+}
+#rezgo_popup_availability .availability .title_row #title_right {
+	font-size: 10px;
+	width: 75px;
+	text-align: right;
+	height: 12px;
+	line-height: 12px;
+	float: left;
+	margin: 0px;
+	padding: 5px 0px;
+	
+}
+#rezgo_popup_availability .availability a {
+	text-decoration: none;
+}
+
+
+#rezgo_popup_availability .availability a .option_row {
+	background: #f9f9f9;
+	cursor: pointer;
+}
+#rezgo_popup_availability .availability a:hover .option_row {
+	background: #d6edf3;
+}
+#rezgo_popup_availability .availability .option_row .left, #rezgo_popup_availability .availability .option_row .availability_col, #rezgo_popup_availability .availability .option_row .left a, #rezgo_popup_availability .availability .option_row .availability_col a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight: bold;
+	height: 25px;
+	vertical-align: middle;
+	line-height: 25px;
+	color: #272E34;
+}
+#rezgo_popup_availability .availability a:hover .option_row div  {
+	color: #900; /*#3E86A7;*/
+	text-decoration: none;
+}
+#rezgo_popup_availability .availability .title_row .left {
+	margin-right: 2px;
+	float:left;
+	text-align: left;
+	width: 173px;
+	padding-left: 10px;
+	border: 0px;
+}
+#rezgo_popup_availability .availability .title_row .availability_col {
+	margin: auto 2px auto 0px;
+	float:left;
+	width: 73px;
+	text-align: right;
+	padding-right: 10px;
+}
+#rezgo_popup_availability .availability .title_row .book_now_col {
+	margin: auto 0px auto 0px;
+	float:left;
+	width: 90px;
+	text-align: right;
+	padding-right: 10px;
+}
+#rezgo_popup_availability .availability .option_row .left {
+	width: 173px;
+	float: left;
+	text-align: left;
+	padding-left: 10px;
+	padding-right: 2px;
+}
+#rezgo_popup_availability .availability .option_row .availability_col {
+	width: 73px;
+	float: left;
+	text-align: right;
+	padding-right: 12px;
+}
+#rezgo_popup_availability .availability .option_row .book_now_col {
+	background: url(/images/booknow_btn.png) no-repeat center;
+	width: 90px;
+	float: left;
+	text-align: right;
+	padding: 0px 5px;
+	height: 25px;
+	text-align: center
+	margin: auto;
+}
+
+
+#rezgo_popup_availability .availability .option_row .book_now_col img{
+	margin-top: 4px;
+}
+#rezgo_popup_availability .availability .page_arrow{
+	position: absolute;
+	right: 0px;
+	cursor: pointer;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+}
+
+#rezgo_popup_availability .availability .page_arrow img {
+	height: 18px;
+	width: 18px;
+	border: 0px;
+	margin: 0px;
+}
+#rezgo_popup_availability .availability .option_page_info {
+	position: relative;
+	margin: 4px auto;
+	color: #4F5C68; /*#666;*/
+	text-align: center;
+	font-weight: bold;
+	font-size: 12px;
+	height: 18px;
+	line-height: 18px;
+	vertical-align: middle;
+	width: 100%;
+}
+#rezgo_popup_availability .availability .option_page_info .prev_page_arrow{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	float: left;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+}
+#rezgo_popup_availability .availability .option_page_info .next_page_arrow{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	float: right;
+	height: 18px;
+	width: 18px;
+	text-align: center;
+}
+
+#rezgo_popup_availability .availability .prev_page_arrow img, #rezgo_popup_availability .availability .next_page_arrow img {
+	cursor: pointer;
+	border: 0px;
+
+}
+#rezgo_popup_availability .availability .option_row	{
+	clear:both;
+	color: white;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	margin: 2px 0px 2px;
+	padding: 2px 0px 2px;
+	border-bottom: 1px solid #d9e4eb;
+	/*width: 270px;*/
+	height: 24px;
+	overflow: hidden;
+	vertical-align: middle;
+}
+#rezgo_popup_availability .availability .option_row a{
+	color: white;
+	text-decoration: none;
+}
+#rezgo_popup_availability .availability .option_row a:hover{
+	color: #333;
+	text-decoration: none;
+}
+#rezgo_popup_availability .close_option_text {
+	text-align: center;
+	font-weight: bold;
+	font-size: 11px;
+	color: #900;
+	/*color: #272E34;*/
+	padding: 0px;
+	margin: 4px 0px;
+}
+#rezgo_popup_availability .balloon_arrow	{
+	background: url(images/avlbl_balloon_arrow.png) no-repeat;
+	display: block;
+	float: right;
+	width: 10px;
+	height: 11px;
+	margin-top: 50px;
+	border: 0px;
+}
+
+html>body #rezgo_popup_availability .availability	{
+	background: url(images/avlbl_balloon.png) repeat-y;
+	display: block;
+	float: right;
+	padding: 15px 15px 5px;
+	text-align: left;
+	width: 370px;
+}
+
+#rezgo_popup_availability .availability	{ /* for IE6 */
+	background: #93b0ca;
+	filter: alpha(opacity=90);
+	display: block;
+	float: right;
+	padding: 15px 15px 5px;
+	text-align: left;
+	width: 370px;
+	position: relative;
+}
+
+#rezgo_popup_availability .availability h3.title	{
+	font-size: 12px;
+	background: transparent;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+
+#rezgo_popup_availability .availability .date	{
+	font-size: 14px;
+	font-weight: bold;
+	width: 100%;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: white;
+	margin: 2px 0px 0px;
+	text-align: center;
+}
+
+#rezgo_popup_availability .availability table	{
+	margin-top: 10px;
+	width: 100%;
+}
+
+#rezgo_popup_availability .availability table td.title	{
+	background: #eaf0f5;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #7291ad;
+	padding: 1px 10px;
+	border-right: 1px solid #9eb8cf;
+}
+
+#rezgo_popup_availability .availability table td.option	{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 5px 10px;
+	width: 79%;
+}
+
+#rezgo_popup_availability .availability table td.number{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 5px 10px;
+	text-align: right;
+	width: 20%;
+}
+
+#rezgo_popup_availability .availability table td.arrow a img	{
+	border: 0;
+	margin-left: 5px;
+}
+
+
+
+/* -------------------------------------------------------- rezgo location map and reviews styles */
+#rezgo_clm_map_and_reviews {
+	/*background: url(/images/clm_calendar.png) no-repeat;*/
+	width: 255px;
+	/*height: 310px;*/
+	margin-bottom: 8px;
+	border: 1px solid #eee;
+}
+
+#rezgo_clm_map_and_reviews .rezgo_map_and_reviews_ttl {
+	text-align: left;
+	background: url(/images/clm_calendar_ttl_bg.png) repeat-x;
+	color: #fff;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px 0px 0px 10px;
+	margin: 0;
+	height: 24px;
+	border: 1px solid #fff;
+	border-bottom: none;
+}
+#rezgo_map_and_reviews_ttl {
+	color: #666;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/*padding: 13px 0px 0px 20px;*/
+	padding: 13px 0px 0px 20px;
+	margin: 0;
+	border-bottom: 1px solid #EEE;
+}
+
+#rezgo_clm_map_and_reviews .rezgo_map_and_reviews_ttl ul.rezgo_map_and_reviews_tabs {
+	padding: 4px 0px 0px;
+	list-style-type: none;
+	text-align: left;
+	margin: 0px 0px;
+}
+#rezgo_clm_map_and_reviews .rezgo_map_and_reviews_ttl .rezgo_map_and_reviews_tabs li {
+	display: inline;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0px;
+}
+#rezgo_clm_map_and_reviews .rezgo_map_and_reviews_ttl .rezgo_map_and_reviews_tabs li a {
+	text-decoration: none;
+	margin-right: 5px;
+	padding: 3px 7px;
+	line-height: 18px;
+	background: #999;
+	color: white;
+	border: 1px solid #DDD;
+	border-bottom: none;
+}
+#rezgo_clm_map_and_reviews .rezgo_map_and_reviews_ttl .rezgo_map_and_reviews_tabs li.selected a {
+	background: #333;
+	border-bottom: none;
+}
+
+.rezgo_map_and_reviews {
+
+}
+
+#rezgo_locationmap {
+	width: 251px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px 0px 0px;
+}
+
+#rezgo_locationmap img {
+	border: 0;
+	margin: 0px auto;
+}
+
+#rezgo_locationmap a img {
+	margin: 0px;
+}
+
+
+
+/* -------------------------------------------------------- rezgo reviews powered by trip reviews styles */
+
+.rezgo_tripreviews_ttl {
+	color: #666;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 13px 0 0 20px;
+	margin: 0;
+	height: 24px;
+	font-weight: bold;
+}
+
+#rezgo_tripreviews	{
+	padding: 5px 10px;
+	font-size: 9px;
+	color: #999;
+	text-align: right;
+}
+
+#rezgo_tripreviews span	{
+	font-weight: bold;
+}
+
+#rezgo_reviews {
+	margin: 2px 0px;
+}
+
+#rezgo_reviews .powered_by_tr {
+	text-align: right;
+	margin: 0px 5px;
+	height: 11px;
+	padding: 0px;
+	color: #666;
+	font-weight: bold;
+	font-size: 11px;
+}
+
+#rezgo_reviews .powered_by_tr a.tr_link {
+	font-style: normal;
+	text-decoration: underline;
+}
+#rezgo_reviews .review {
+	margin: 8px 0px;
+	padding: 0px 10px;
+	font-size: 11px;
+}
+
+
+#rezgo_reviews .review .review_ttl {
+	font-weight: bold;
+}
+#rezgo_reviews .balloon	{
+	background: url(images/review_ballon.png) no-repeat;
+	width: 211px;
+	height: 39px;
+	padding-top: 7px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-style: italic;
+	color: #666;
+	margin: 15px auto 5px auto;
+}
+
+#rezgo_reviews_btns	{
+	padding: 0px;
+	height: 28px;
+	border-top: 1px solid #EEE;
+	overflow: hidden;
+}
+
+a.readreviews	{
+	display: block;
+	float: left;
+	background: url(images/review_btn_off.png) no-repeat;
+	width: 90px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	text-decoration: none;
+	padding: 0px 27px 0px 10px;
+	margin: 0;
+	border-right: 1px solid #EEE;
+}
+
+a:hover.readreviews	{
+	color: #666;
+	background: url(images/review_btn_on.png) no-repeat;
+}
+
+a.writereviews {
+	display: block;
+	float: left;
+	background: url(images/review_btn_off.png) no-repeat;
+	width: 90px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #999;
+	text-decoration: none;
+	padding: 0px 27px 0px 10px;
+	margin: 0;
+}
+
+a:hover.writereviews {
+	color: #666;
+	background: url(images/review_btn_on.png) no-repeat;
+}
+
+
+
+/* -------------------------------------------------------- rezgo detail availability styles */
+
+#rezgo_detail_availability	{
+	padding: 15px 0;
+}
+
+#rezgo_detail_availability .title	{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 10px 0px 10px 20px;
+}
+
+#rezgo_detail_availability .title span	{
+	color: #df8416;
+	font-size: 14px;
+}
+
+#rezgo_detail_availability .detail	{
+	position: relative;
+	padding-top: 25px;
+	margin-left: 8px;
+}
+
+.title_bar_blue	{
+	background: url(images/title_bar_blue.png) no-repeat;
+	behavior: url(/css/iefix/iepngfix.htc);
+	width: 465px;
+	height: 27px;
+	position: absolute;
+	top: 0px;
+}
+
+#rezgo_detail_availability .title_bar_blue .title	{
+	display: block;
+	float: left;
+	height: 18px;
+	margin-top: 2px;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+	text-align: right;
+	padding: 5px 0 0 15px;
+}
+
+#rezgo_detail_availability .title_bar_blue .spot	{
+	background: url(images/title_bar_blule_divider.png) no-repeat left;
+	display: block;
+	float: right;
+	height: 18px;
+	margin-top: 2px;
+	padding: 5px 10px 0 10px;
+	font-size: 10px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+}
+
+#rezgo_detail_availability .detail table	{
+	width: 461px;
+	border: 1px solid #d2d2d2;
+	margin-left: 2px;
+}
+
+#rezgo_detail_availability .detail table td.title	{
+	background: #f3f3f3;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 2px 10px;
+	border-right: 1px solid #fff;
+}
+
+#rezgo_detail_availability .detail table td.option	{
+	padding: 5px 10px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #333;
+}
+
+#rezgo_detail_availability .detail table td.quantity	{
+	padding: 5px 10px;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: right;
+	width: 20%;
+}
+
+#rezgo_detail_availability .detail table td.quantity input	{
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 1px;
+	width: 40px;
+	height: 20px;
+	text-align: right;
+	font-size: 14px;
+}
+
+#rezgo_detail_availability .detail table td.discount	{
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #df8416;
+	text-align: right;
+	text-decoration: line-through;
+	width: 20%;
+}
+
+#rezgo_detail_availability .detail table td.price	{
+	padding: 5px 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: right;
+	width: 20%;
+}
+
+#rezgo_detail_availability .detail table td.btn	{
+	padding: 10px;
+	text-align: right;
+}
+
+#rezgo_detail_availability .detail table td.booking_notes {
+	text-align: right;
+	padding: 5px 10px;
+}
+#rezgo_detail_availability .detail table .requirements {
+}
+#rezgo_detail_availability .detail table .requirements .minimum {
+	color: #6d96b8;
+	font-weight: bold;
+}
+#rezgo_detail_availability .detail table .requirements .option {
+	font-weight: bold;
+}
+#rezgo_detail_availability .detail table td.min_per_span {
+}
+/* -------------------------------------------------------- rezgo detail availability styles */
+
+#rezgo_availability	{
+	padding: 20px 0 0 3px;
+}
+
+#rezgo_availability .balloon_arrow	{
+	background: url(images/avlbl_balloon_arrow_up.png) no-repeat 30px bottom;
+	display: block;
+	height: 10px;
+	margin: 0;
+	padding: 0;
+}
+
+#rezgo_availability .availability	{
+	display: block;
+	padding: 20px 15px;
+	width: 400px;
+	border: 1px solid #a6bfd5;
+	margin: 0;
+}
+
+#rezgo_availability .availability .title	{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #6d96b8;
+	margin: 0;
+	padding: 0;
+}
+
+#rezgo_availability .availability table	{
+	margin: 10px 0 0 0;
+	width: 100%;
+	border: 0;
+}
+
+#rezgo_availability .availability table td.title	{
+	background: #f3f3f3;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 1px 10px;
+	border-right: 1px solid #fff;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+}
+
+#rezgo_availability .availability table td a {
+	text-decoration: none;
+}
+#rezgo_availability .availability table td a .option_row	{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 5px 10px;
+	border-bottom: 1px solid #d3d3d3;
+	height: 25px;
+	cursor: pointer;
+}
+#rezgo_availability .availability table td a:hover .option_row {
+	background: #d6edf3;
+}
+
+#rezgo_availability .availability table td a:hover .option_row div  {
+	color: #900; /*#3E86A7;*/
+}
+#rezgo_availability .availability table td .option_row .left {
+	float: left;
+	width: 270px;
+	overflow: hidden;
+	text-align: left;
+}
+#rezgo_availability .availability table td .option_row .availability_col {
+	float: left;
+	width: 110px;
+	text-align: right;
+}
+#rezgo_availability .availability table td .option_row .book_now_col {
+	float: left;
+	text-align: right;
+}
+#rezgo_availability .availability table td.option	{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 5px 10px;
+	border-bottom: 1px solid #d3d3d3;
+	width: 75%;
+}
+
+#rezgo_availability .availability table td.number	{
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 5px 10px 5px 0px;
+	text-align: right;
+	border-bottom: 1px solid #d3d3d3;
+	width: 25%;
+}
+
+#rezgo_availability a {
+	color: black;
+}
+
+/* -------------------------------------------------------- rezgo booking details styles */
+
+#rezgo_steps	{
+	padding: 2px 2px 0 2px;
+	margin: 0;
+}
+
+#rezgo_steps .step1, #rezgo_steps .step2, #rezgo_steps .step3	{
+	padding: 14px 0 0 170px;
+	margin: 2px 0 0 2px;
+	height: 30px !important;
+	height: 40px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;}
+
+#rezgo_steps .step1	{
+	background: url(images/step1.png) no-repeat left top;
+}	
+
+#rezgo_steps .step2	{
+	background: url(images/step2.png) no-repeat left top;
+}	
+
+#rezgo_steps .step3	{
+	background: url(images/step3.png) no-repeat left top;
+}	
+
+#rezgo_booking_details	{
+	width: 657px;
+	margin: 0 auto;
+	padding: 20px 0;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	line-height: 1.5em;
+}
+
+#rezgo_booking_details p	{
+	margin: 0;
+	padding: 10px;
+}
+
+#rezgo_booking_details form	{
+	margin: 0;
+	padding: 0;
+}
+
+#rezgo_booking_details .detail	{
+	position: relative;
+	padding-top: 25px;
+	margin: 0px auto 20px;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: left;
+}
+
+#rezgo_booking_details .title_bar_blue, #rezgo_booking_details .title_bar_grey	{
+	width: 637px !important;
+	width: 662px;
+	height: 21px !important;
+	height: 27px;
+	position: absolute;
+	top: 0px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 6px 0 0 20px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+#rezgo_booking_details .title_bar_blue	{
+	background: url(images/title_bar_long_blue.png) no-repeat;
+	behavior: url(/css/iefix/iepngfix.htc);
+}
+
+#rezgo_booking_details .title_bar_grey	{
+	background: url(images/title_bar_long_grey.png) no-repeat;
+	behavior: url(/css/iefix/iepngfix.htc);
+}
+#rezgo_booking_details .detail .price {
+	margin-left: 5px;
+}
+#rezgo_booking_details .detail .positive {
+	color: blue;
+}
+#rezgo_booking_details .detail .negative {
+	color: red;
+}
+#rezgo_booking_details .detail table	{
+	width: 650px;
+	border: 1px solid #d2d2d2;
+	margin-left: 4px;
+	background: #fff;
+}
+#rezgo_booking_details .detail table.payment_details_table {
+	width: 650px;
+	border: 1px solid #d2d2d2;
+	margin: 0px 4px;
+	background: #fff;
+	vertical-align: top;
+}
+
+#rezgo_booking_details .detail table.payment_details_table td {
+	padding: 0px 10px;
+	vertical-align: top;
+}
+#rezgo_booking_details .detail table.payment_details_table td.name {
+	font-size: 11px;
+	font-weight: bold;
+	padding: 4px 10px;
+}
+#rezgo_booking_details .detail table.booking_details_table {
+	width: 650px;
+	border: 1px solid #d2d2d2;
+	margin-left: 4px;
+	background: #fff;
+	vertical-align: top;
+}
+#rezgo_booking_details .detail table.receipt_actions {
+	width: 240px;
+	margin: 0px auto;
+	border: 1px solid #d2d2d2;
+}
+
+#rezgo_booking_details .detail table.receipt_actions td {
+	text-align: center;
+}
+
+#rezgo_booking_details .detail table.receipt_actions td a {
+	color: #DDD;
+}
+
+#rezgo_booking_details .detail table.receipt_actions td .action {
+	background: #666;
+	margin: 1px 1px;
+	padding: 5px 0px;
+	font-weight: bold;
+}
+
+#rezgo_booking_details .detail table.receipt_actions td .print_voucher {
+	font-size: 18px;
+	padding: 10px 0px;
+	background: #B55;
+}
+
+#rezgo_booking_details .detail table td.title {
+	background: #f3f3f3;
+	font-size: 13px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 7px 10px;
+	border-bottom: 1px solid #fff;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	text-align: left;
+	vertical-align: top;
+}
+
+#rezgo_booking_details .detail table td.print_receipt {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 7px 10px;
+	text-align: right;
+	vertical-align: top;
+}
+#rezgo_booking_details .detail table td.print_receipt a {
+	color: black;
+	text-decoration: underline;
+}
+#rezgo_booking_details .detail table td.payment_details {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 4px 10px;
+	text-align: left;
+	vertical-align: top;
+}
+#rezgo_booking_details .detail table td.details {
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 7px 10px;
+	text-align: left;
+	vertical-align: top;
+}
+
+#rezgo_booking_details .detail table.pricedetails	{
+	width: 100%;
+	border-width: 1px 0px;
+	margin: 0;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.title	{
+	background: #f7f7f7;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 5px 10px;
+	border-left: 1px solid #fff;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.type, #rezgo_booking_details .detail table.pricedetails td.quantity, #rezgo_booking_details .detail table.pricedetails td.cost, #rezgo_booking_details .detail table.pricedetails td.total, #rezgo_booking_details .detail table.pricedetails td.adjustment	{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 7px 10px;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.type	{
+	font-size: 12px;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.quantity	{
+	font-size: 12px;
+	text-align: right;
+	width: 50px;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.cost {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	width: 100px;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.total {
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: right;
+	width: 100px;
+}
+#rezgo_booking_details .detail table.pricedetails td.total span	{
+	font-size: 16px;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.adjustment	{
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #df8416;
+	text-align: right;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.title_total	{
+	background: #f7f7f7;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 5px 10px;
+	border-top: 1px solid #fff;
+	border-left: 1px solid #fff;
+	text-align: right;
+}
+
+#rezgo_booking_details .detail table.pricedetails td.line	{
+	height: 1px;
+	background: #ebebeb;
+}
+
+#rezgo_booking_details .detail table.formfieldbox	{
+	width: 650px;
+	border: 1px solid #d2d2d2;
+	margin-left: 4px;
+	background: #fff;
+	padding: 2px 0px 0px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td	{
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	padding: 2px 5px;
+	line-height: 1.5em;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.name	{
+	font-weight: bold;
+	width: 23%;
+	vertical-align: top;
+}
+#rezgo_booking_details .detail table.formfieldbox td.response {
+	width: 75%;
+}
+#rezgo_booking_details .detail table.formfieldbox td.info_title {
+	font-size: 12px;
+	font-weight: bold;
+	padding-top:10px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td input, #rezgo_booking_details .detail table.formfieldbox td select	{
+	border: 1px solid #b2b2b2;
+	background: #fff;
+	padding: 2px;
+	font-size: 14px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.checkbox	{
+	padding: 5px 0px 0px 0px;
+	width: 1%;
+	vertical-align: top;
+	text-align: center;
+}
+
+#rezgo_booking_details .detail .checkbox_icon	{
+	margin: 0px 10px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td input.field, #rezgo_booking_details .detail table.formfieldbox td select.field	{
+	width: 170px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.hr	{
+	padding: 1px 0;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td p	{
+	margin: 0;
+	padding: 3px 0;
+}
+
+#rezgo_booking_details .proceed	{
+	text-align: right;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	margin: 0px 0px 10px;
+	line-height: 2.5em;
+}
+
+#rezgo_booking_details .proceed	#manual_cc {
+	text-align: left;
+}
+#rezgo_booking_details .detail table.formfieldbox td .completedfield	{
+	border: 1px solid #f7f7f7;
+	background: #f7f7f7;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 2px 5px;
+	width: 164px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td .completed_description	{
+	width: 618px;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td .completedfield_confirm, 
+#rezgo_booking_details .detail table.payment_details_table td .completedfield_confirm {
+	border: 1px solid #f7f7f7;
+	background: #f7f7f7;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;
+	padding: 2px 5px;
+}
+#rezgo_booking_details .detail table.formfieldbox td.terms	{
+	padding: 0;
+	/*height: 150px;*/
+	height: auto;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.terms .iframe	{
+	height: 150px;
+	width: 618px;
+	padding: 15px;
+	overflow: auto;
+	font-size: 10px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	line-height: 1.3em;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.agreement	{
+	background: #df8416;
+	font-size: 12px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #fff;
+	padding: 10px 15px;
+	/*border-top: 1px solid #d2d2d2;*/
+}
+#rezgo_booking_details .detail table.formfieldbox td.agreement a.terms_link {
+	color: black;
+	text-decoration: underline;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.agreement input	{
+	background: none;
+	border: 0;
+}
+
+#rezgo_booking_details .detail table.formfieldbox td.contact_info_details {
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #000;
+	padding: 4px 10px;
+	text-align: left;
+	vertical-align: top;
+}
+#rezgo_booking_details .detail table.formfieldbox td .rezgo_section_hr {
+	margin: 0px 10px;
+}
+#rezgo_booking_details .detail .payment_info_row {
+	margin: 2px 0px;
+}
+#rezgo_booking_details .detail .payment_info_desc {
+	float: left;
+	margin: auto;
+	height: 25px;
+	width: 200px;
+	line-height: 25px;
+}
+
+#rezgo_booking_details .detail .payment_info_response {
+	float: left;
+	margin: auto;
+	line-height: 25px;
+	vertical-align: middle;
+}
+#rezgo_booking_details .detail .payment_method_dropdown {
+	margin: 0px 10px 0px 0px;
+	height: 25px;
+}
+#rezgo_booking_details .detail .cc_icon {
+	border: 1px solid #CCC;
+	margin: 4px 2px;
+	width: 27px;
+	height: 17px;
+}
+
+
+a.rezgo_btn_print	{
+	border: 1px solid #ececec;
+	background: url(images/btn_right_arrow_off.png) no-repeat left;
+	height: 18px;
+	color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 11px;
+	display: block;
+	text-decoration: none;
+	width: 100px;
+	padding-top: 0px;
+	text-align: center;
+	float: right;
+	margin: 12px 12px 0 0;
+}
+
+a:hover.rezgo_btn_print	{
+	background: url(images/btn_right_arrow_on.png) no-repeat left;
+}
+
+#rezgo_booking_details .rezgo_message, .rezgo_message	{
+	background: #fbf9e7;
+	border:1px solid #d2d2d2;
+	padding: 15px;
+	margin-bottom: 20px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+/* SSL/Security Metrics Logos */
+.security_logos {
+	margin: 5px 0px;
+}
+
+.security_logos img {
+	margin-right: 10px;
+}
+
+.rapid_ssl_logo {
+	margin: 0px auto;
+}
+
+
+#rezgo_companyinfo	{
+	background: url(/images/complete_companyinfo.png) repeat-x top;
+	padding: 10px 20px;
+	margin: 0 2px;
+}
+
+
+#rezgo_companyinfo .companyinfotitle	{
+	margin: 0;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+
+#rezgo_companyinfo .companyinfodetails	{
+	margin: 0;
+	padding: 20px 0;
+	font-size: 12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	line-height: 1.5em;
+}
+.rezgo_item_not_available {
+	margin: 10px 20px;
+}
+.transaction_booking_status {
+	color:#CC0000;
+	font-size: 24px;
+}
+h3.contact_info {
+	color: black;
+	text-decoration: underline;
+}
+.rezgo_transaction_booking_status {
+	color:#CC0000;
+	font-size: 20px;
+	margin: 10px auto;
+	text-align: center;
+}
+/* -------------------------------------------------------- rezgo complete page styles */
+.rezgo_booking_complete_transaction_box {
+	border: 1px solid #999;
+	margin: 10px auto;
+	padding: 10px;
+}
+.rezgo_complete_message	{
+	background: #fbf9e7;
+	border:1px solid #d2d2d2;
+	padding: 15px;
+	margin-bottom: 15px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+	text-align: center;
+}
+.rezgo_print_voucher_btn {
+	margin: 10px auto;
+	text-align: center;
+}
+.paypal_button {
+	width: 100%;
+	text-align: center;
+	margin: 0px auto 10px;
+}
+.rezgo_barcodebox {
+	border: 1px solid #999;
+	margin: 5px auto;
+	text-align: center;
+	width: 300px;
+	background: #FFF;
+}
+
+.rezgo_barcode {
+	margin: 2px auto;
+	text-align: center;
+}
+
+/* -------------------------------------------------------- rezgo trip reviews */
+.tripreviews_feed {
+	margin: 10px;
+}
+
+.tripreviews_write_review {
+	margin: 5px 0px;
+	text-align: right;
+	border: 1px solid #CCC;
+	width: 249px;
+	height: 32px;
+	padding: 1px;
+}
+.tripreviews_import {
+	border: 1px solid #CCC;
+}
+.tripreviews_import .import_header {
+	background: #999;
+	color: white;
+	text-align: right;
+	padding: 2px 5px;
+}
+.tripreviews_import .reviews {
+	padding: 2px 10px;
+}
+
+/* -------------------------------------------------------- rezgo cancelbooking */
+
+h1.cancel_booking_title	{
+	margin: 10px 15px 0px;
+	padding: 10px 0px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #333;
+}
+.cancel_booking {
+	margin: 10px 0px;
+	padding: 5px 0px;
+}
+.cancel_booking .refund_amt{
+	font-weight: bold;
+}
+
+.cancel_booking_btn {
+	padding: 2px 10px;
+}
+
+.hidden {
+	border: 1px solid black;
+}
+/* clear divs */
+.clear {
+	clear: both;
+}
+.clear5 {
+	clear: both;
+	height: 5px;
+}
+.clear10 {
+	clear: both;
+	height: 10px;
+}
+.clear15 {
+	clear: both;
+	height: 15px;
+}

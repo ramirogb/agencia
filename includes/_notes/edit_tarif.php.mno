@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_tarif" value="name:id;datatype:int,name:SerCdg;datatype:string,name:AgeCdg;datatype:string,name:Rng;datatype:string,name:Pre;datatype:real,name:FecIni;datatype:date,name:FecFin;datatype:date,name:UsuAdd;datatype:string,name:FecAdd;datatype:date,name:TimAdd;datatype:string,name:UsuChg;datatype:string,name:FecChg;datatype:date,name:TimChg;datatype:string,name:IPAdd;datatype:string,name:IPChg;datatype:string,name:NumLin;datatype:int,name:PaxIni;datatype:int,name:PaxFin;datatype:int,name:EmpCdg;datatype:string" />
+</info>
